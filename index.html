@@ -5,21 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Navigation -->
      <header>
     <nav>
         <div class="logo">
-            <h1>Rohit Malida -(183)</h1>
+            <h1>Rohit Malida </h1>
         </div>
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
-            <li><a href="#introduction">Introduction</a></li>
-            <li><a href="#education">Education</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">about</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
@@ -34,15 +33,17 @@
         </div>
     </section>
 
-    <!-- Introduction Section -->
-    <section id="introduction" class="introduction">
-        <h2>Introduction</h2>
-        <div class="intro-content">
-            <img src="https://lh3.googleusercontent.com/a/ACg8ocJW1KPh63A-EC2neLiiJLMeAEB4tiK_tckke5PtEJn2vV9SYsMB=s360-c-no" alt="Rohit Malida">
-        <p>I Am Rohit Malida, a highly motivated and enthusiastic 1st-year student of Adamas University, pursuing a Bachelor of Computer Application (BCA). I am passionate about programming, web development, and app development. I actively seek opportunities to apply my academic knowledge to real-world challenges. </p>
-        <div></div>
-        <p>When I'm not coding, you can find me exploring new technologes, reading tech blogs, or working on personal projects to sharpen my skills.</p>
-    </div>
+    <!-- About Section -->
+    <section class="section" id="about">
+        <h2>About Me</h2>
+        <div class="about">
+            <div class="about-img">
+                <img src="https://lh3.googleusercontent.com/a/ACg8ocJW1KPh63A-EC2neLiiJLMeAEB4tiK_tckke5PtEJn2vV9SYsMB=s360-c-no" alt="Rohit Malida">
+
+            </div>
+            <div class="about-text">
+                <p>Hi, I'm Rohit Malida, a passionate Frontend developer and BCA 1st-year student with a strong foundation in Full stack development. I turning ideas into real-world applications and constantly strive to improve my skills. Currently, I'm building projects like  Website and Spotify clones etc. to sharpen my expertise before diving into a major website project for a school. My long-term goal is to master full-stack in development and DSA with Java. By the end of my 2nd year, I plan to explore AI/ML.</p>
+            </div>
         </div>
     </section>
 
@@ -51,9 +52,10 @@
         <h2>Education</h2>
         <div class="education-timeline">
             <div class="education-item">
-            <h3>Bachelor of Computer application - BCA (Hons)</h3>
-            <p>I have completed my 10th and 12th from Radhamohanpur Vivekananda High School. Currently, I am pursuing BCA (Hons) from Adamas University. </p>
-            <p>focusing on web development, algorithms, and software engineering.</p>
+                <h3>Bachelor of Computer application - BCA (Hons)</h3>
+                <p>I have completed my 10th and 12th from Radhamohanpur Vivekananda High School. Currently, I am pursuing BCA (Hons) from Adamas University. </p>
+                <p>focusing on web development, algorithms, and software engineering.</p>
+            </div>
         </div>
     </section>
 
@@ -82,9 +84,28 @@
                 <div class="progress" style="width: 80%;"></div>
             </div>
         </div>
-       
+       </div>
+        <div class="skill-card">
+            <i class="fab fa-js"></i>
+            <h3>Visual Stdio Code</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 90%"></div>
+            </div>
         </div>
+        </div>
+        <div class="skill-card">
+            <i class="fab fa-js"></i>
+            <h3>Git</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 90%"></div>
+            </div>
     </div>
+    <div class="skill-card">
+            <i class="fab fa-js"></i>
+            <h3>C++</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 50%"></div>
+            </div>
     </section>
 
     <!-- Projects Section -->
@@ -98,8 +119,8 @@
                 <a href="#" class="btn">View Project</a>
             </div>
             <div class="project-card">
-                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" alt="Project 2">
-                <h3>Portfolio Website</h3>
+                <img src= "https://png.pngtree.com/png-clipart/20190610/original/pngtree-calculator-png-image_1941129.jpg" alt="Project 2">
+                <h3>calculator</h3>
                 <p>Designed and developed a personal portfolio with HTML,CSS And JS.</p>
                 <a href="#" class="btn">View Project</a>
             </div>
@@ -107,16 +128,34 @@
         
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <form id="contact-form">
-            <input type="text" placeholder="Name" required>
-            <input type="email" placeholder="Email" required>
-            <textarea placeholder="Message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
+    <!-- Resume -->
+    <section id="resume" class="resume">
+        <h2>Resume</h2>
+        <p>Download my resume to learn more about my qualifications and experience.</p>
+        <a href="RohitMalidaResume.pdf" download>Download Resume</a>
     </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-form">
+            <div class="contact-info">
+                <p><span>📧</span> rohitmalida9@@gmail.com <a href="Mail to:rohitmalida9@@gmail.com">Mail Now</a></p>
+                <p><span>📞</span> 9883218992 <a href="Tel: 988321992">Call Now</a></p>
+            </div>
+        </div>
+    </section>
+
+    <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+
+    <footer>
+        <p>&copy; 2025 Rohit Malida. All rights reserved.</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
